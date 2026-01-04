@@ -1,8 +1,13 @@
 @import "tailwindcss";
 
- @theme {
+@theme {
   --font-open-sans: "Open Sans", "sans-serif";
   --font-pacifico: "Pacifico", "sans-serif";
   --font-dosis: "Dosis", "sans-serif";
   --color-primary-500: #337ab7;
 }
+
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../../../node_modules/flowbite";
+
