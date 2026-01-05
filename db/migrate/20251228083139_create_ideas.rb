@@ -1,7 +1,7 @@
 class CreateIdeas < ActiveRecord::Migration[8.1]
   def change
     create_table :ideas do |t|
-      t.string :title      # stores a short title
+      t.string :author     # stores a short title
       t.text :description  # stores a longer text
       t.timestamps
     end
